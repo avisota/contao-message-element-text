@@ -35,11 +35,6 @@
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
-	"conflict": {
-		"contao-legacy/avisota": "*",
-		"contao-legacy/avisota2": "*",
-		"avisota/contao": "*"
-	},
 	"extra": {
 		"contao": {
 			"sources": {
