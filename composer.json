@@ -35,6 +35,11 @@
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
+	"autoload":{
+		"psr-0":{
+			"Avisota\\Contao\\Message\\Element\\Text": "src/"
+		}
+	},
 	"extra": {
 		"contao": {
 			"sources": {
