@@ -21,38 +21,17 @@
 $GLOBALS['TL_DCA']['orm_avisota_message_content']['metapalettes']['text'] = array
 (
 	'type'   => array('type', 'cell', 'headline'),
-	'text'   => array('text', 'definePlain'),
+	'text'   => array('text'),
 	'image'  => array('addImage'),
 	'expert' => array(':hide', 'cssID', 'space')
 );
 
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['metasubpalettes']['definePlain'] = array
-(
-	'plain'
-);
-
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['text']        = array
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['text'] = array
 (
 	'label'       => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['text'],
 	'exclude'     => true,
 	'search'      => true,
 	'inputType'   => 'textarea',
 	'eval'        => array('mandatory' => true, 'rte' => 'tinyNews', 'helpwizard' => true),
-	'explanation' => 'insertTags'
-);
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['definePlain'] = array
-(
-	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['definePlain'],
-	'exclude'   => true,
-	'inputType' => 'checkbox',
-	'eval'      => array('submitOnChange' => true)
-);
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['plain']       = array
-(
-	'label'       => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['plain'],
-	'exclude'     => true,
-	'search'      => true,
-	'inputType'   => 'textarea',
-	'eval'        => array('mandatory' => true, 'helpwizard' => true),
 	'explanation' => 'insertTags'
 );
