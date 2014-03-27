@@ -10,12 +10,12 @@
 		{% if headline %}
 			<{{ hl }}>{{ headline }}</{{ hl }}>
 		{% endif %}
-		{% if addImage and (floating == 'above' or floating == 'left' or floating == 'right') %}
-			{{ mce.image(singleSRC, { 'alt': alt, 'float': floating, 'size': size, 'margin': imagemargin, 'url': imageUrl, 'caption': caption }) }}
+		{% if addImage and (imageFloating == 'above' or imageFloating == 'left' or imageFloating == 'right') %}
+			{{ mce.image(imageSource, { 'alt': imageAlt, 'float': imageFloating, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
 		{% endif %}
 		{{ text }}
-		{% if addImage and floating == 'below' %}
-			{{ mce.image(singleSRC, { 'alt': alt, 'float': floating, 'size': size, 'margin': imagemargin, 'url': imageUrl, 'caption': caption }) }}
+		{% if addImage and imageFloating == 'below' %}
+			{{ mce.image(imageSource, { 'alt': imageAlt, 'float': imageFloating, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
 		{% endif %}
 	{% endspaceless %}
 {% endblock %}
