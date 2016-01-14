@@ -13,25 +13,23 @@
  * @filesource
  */
 
-
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['orm_avisota_message_content']['text']         = array(
-	'Text',
-	'You can use HTML tags to format the text.'
+$GLOBALS['TL_LANG']['orm_avisota_message_content']['text']        = array(
+    'Text',
+    'You can use HTML tags to format the text.'
 );
-$GLOBALS['TL_LANG']['orm_avisota_message_content']['definePlain']  = array(
-	'Define plain text',
-	'Define custom plain text instead of generate it from html.'
+$GLOBALS['TL_LANG']['orm_avisota_message_content']['definePlain'] = array(
+    'Define plain text',
+    'Define custom plain text instead of generate it from html.'
 );
-$GLOBALS['TL_LANG']['orm_avisota_message_content']['plain']        = array(
-	'Plain text',
-	'Plain text without html formatting.'
+$GLOBALS['TL_LANG']['orm_avisota_message_content']['plain']       = array(
+    'Plain text',
+    'Plain text without html formatting.'
 );
-
 
 /**
  * Legends
  */
-$GLOBALS['TL_LANG']['orm_avisota_message_content']['text_legend']      = 'Text';
+$GLOBALS['TL_LANG']['orm_avisota_message_content']['text_legend'] = 'Text';

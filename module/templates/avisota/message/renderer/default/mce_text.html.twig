@@ -6,16 +6,16 @@
 {% set headline = headline.value %}
 
 {% block content %}
-	{% spaceless %}
-		{% if headline %}
-			<{{ hl }}>{{ headline }}</{{ hl }}>
-		{% endif %}
-		{% if addImage and (imageFloating == 'above' or imageFloating == 'left' or imageFloating == 'right') %}
-			{{ mce.image(imageSource, { 'alt': imageAlt, 'float': imageFloating, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
-		{% endif %}
-		{{ text }}
-		{% if addImage and imageFloating == 'below' %}
-			{{ mce.image(imageSource, { 'alt': imageAlt, 'float': imageFloating, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
-		{% endif %}
-	{% endspaceless %}
+    {% spaceless %}
+        {% if headline %}
+            <{{ hl }}>{{ headline }}</{{ hl }}>
+        {% endif %}
+        {% if addImage and (imageFloating == 'above' or imageFloating == 'left' or imageFloating == 'right') %}
+            {{ mce.image(imageSource, { 'alt': imageAlt, 'float': imageFloating, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
+        {% endif %}
+        {{ text }}
+        {% if addImage and imageFloating == 'below' %}
+            {{ mce.image(imageSource, { 'alt': imageAlt, 'float': imageFloating, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
+        {% endif %}
+    {% endspaceless %}
 {% endblock %}
