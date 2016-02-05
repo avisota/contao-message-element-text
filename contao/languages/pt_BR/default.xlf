@@ -3,10 +3,12 @@
     <body>
       <trans-unit id="MCE.text.0">
         <source>Text</source>
+        <target>Texto</target>
         
       </trans-unit>
       <trans-unit id="MCE.text.1">
         <source>Generates a rich text element.</source>
+        <target>Gera um elemento de texto rico.</target>
         
       </trans-unit>
     </body>
