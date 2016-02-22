@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="php" date="2014-05-06T04:00:48+02:00" original="orm_avisota_message_content" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="orm_avisota_message_content.text.0">
+        <source>Text</source>
+        <target>Text</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.text.1">
+        <source>You can use HTML tags to format the text.</source>
+        <target>Zur Formatierung können Sie HTML-Tags verwenden-</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.definePlain.0">
+        <source>Define plain text</source>
+        <target>Einfachen Text definieren</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.definePlain.1">
+        <source>Define custom plain text instead of generate it from html.</source>
+        <target>Erstellen Sie einfachen Text anstatt ihn als HTML zu erfassen.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.plain.0">
+        <source>Plain text</source>
+        <target>Einfacher Text</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.plain.1">
+        <source>Plain text without html formatting.</source>
+        <target>Einfacher Text ohne HTML-Formatierung</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.text_legend">
+        <source>Text</source>
+        <target>Text</target>
+        
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
