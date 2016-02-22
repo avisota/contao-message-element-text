@@ -43,19 +43,19 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Avisota\\Contao\\Message\\Element\\Text": "src/"
         }
     },
     "extra": {
         "contao": {
             "sources": {
-                "module": "system/modules/avisota-message-element-text"
+                "contao": "system/modules/avisota-message-element-text"
             },
             "transifex": {
                 "project": "avisota-contao",
                 "prefix": "contao-message-element-text-",
-                "languages_cto": "module/languages",
+                "languages_cto": "contao/languages",
                 "languages_tx": ".tx"
             }
         },
