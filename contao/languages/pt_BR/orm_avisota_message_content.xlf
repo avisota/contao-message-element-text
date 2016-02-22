@@ -3,10 +3,12 @@
     <body>
       <trans-unit id="orm_avisota_message_content.text.0">
         <source>Text</source>
+        <target>Texto</target>
         
       </trans-unit>
       <trans-unit id="orm_avisota_message_content.text.1">
         <source>You can use HTML tags to format the text.</source>
+        <target>Você pode usar tags HTML para formatar o texto.</target>
         
       </trans-unit>
       <trans-unit id="orm_avisota_message_content.definePlain.0">
@@ -27,6 +29,7 @@
       </trans-unit>
       <trans-unit id="orm_avisota_message_content.text_legend">
         <source>Text</source>
+        <target>Texto</target>
         
       </trans-unit>
     </body>

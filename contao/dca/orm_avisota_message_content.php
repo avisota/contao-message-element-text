@@ -17,8 +17,7 @@
  * Table orm_avisota_message_content
  * Entity Avisota\Contao:MessageContent
  */
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['metapalettes']['text'] = array
-(
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['metapalettes']['text'] = array(
     'type'      => array('cell', 'type', 'headline'),
     'text'      => array('text'),
     'image'     => array('addImage'),
@@ -26,8 +25,7 @@ $GLOBALS['TL_DCA']['orm_avisota_message_content']['metapalettes']['text'] = arra
     'published' => array('invisible'),
 );
 
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['text'] = array
-(
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['text'] = array(
     'label'       => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['text'],
     'exclude'     => true,
     'search'      => true,

@@ -3,10 +3,12 @@
     <body>
       <trans-unit id="MOD.avisota-message-element-text.0">
         <source>Avisota - Message element &quot;Text&quot;</source>
+        <target>Avisota - Elemento de mensagem &quot;Texto&quot;</target>
         
       </trans-unit>
       <trans-unit id="MOD.avisota-message-element-text.1">
         <source>&quot;Text&quot; message element for Avisota messages.</source>
+        <target>Elemento de mensagem &quot;Texto&quot; para Avisota mensagens.</target>
         
       </trans-unit>
     </body>
